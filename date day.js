@@ -1,7 +1,7 @@
-1.
+// 1.
 var date = new Date(2012,0,3);
 
-2.
+//2.
 var getWeekDay = function (date) {
     var day = date.getDay();
     switch (day) {
@@ -31,4 +31,4 @@ var getWeekDay = function (date) {
     }
 }
 getWeekDay(new Date);
-3. 
+// 3. 

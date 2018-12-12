@@ -1,4 +1,4 @@
-1.
+// 1.
 function checkAge(age) {
   if (age > 18) {
     return true;
@@ -10,7 +10,7 @@ function checkAge(age) {
 function checkAge(age) {
   age > 18 ? true : confirm('Родители разрешили?');
 }
-2. 
+// 2. 
 function min(a, b) {
    if (a >= b) {
        return b;
@@ -18,7 +18,7 @@ function min(a, b) {
        return a;
    }
 }
-3. 
+//3. 
 function pow() {
     a = prompt("Input number", )
     b = prompt("Input power of number", )
@@ -27,13 +27,13 @@ function pow() {
 
 
 
-4. 
+//4. 
 function sum() {
     var a = prompt("Input number", );
     var b = prompt("Input another one number", );
     return +a + +b;
 }
-5. 
+//5. 
 function name () {
     a = prompt("Input Your name", );
     if (a == "Evgen") {
@@ -42,11 +42,11 @@ function name () {
         alert("Your name Evgen!!!");
     }
 } 
-6. 
+//6. 
 function typeArg(a) {
     console.log(typeof(a));
 }
-7. 
+//7. 
 var arr = [];
 arr = [2, 3, 5, 6, 9, 10, 15, 24, 100];
 function elements(a) {
@@ -60,4 +60,4 @@ function elements(a) {
     }
     return arr1;
 }
-elements(arr)
+console.log(elements(arr));

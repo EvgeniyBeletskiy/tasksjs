@@ -1,11 +1,11 @@
-1.
+// 1.
 var name = prompt("Знаете ли вы официальное название JS?", );
 if (name == "ECMAScript") {
     alert("Верно");
 } else {
     alert("Не знаете? «ECMAScript»!");
 }  
-2. 
+// 2. 
 var number = prompt("Введите любое число", );
 if (number == 0) {
     alert (0);
@@ -14,7 +14,7 @@ if (number == 0) {
 } else {
     alert (-1);
 }
-3.
+// 3.
 var login = prompt("Input your login", );
 if (login == "Админ") {
     var password = prompt("Input your password", );
@@ -28,17 +28,17 @@ if (login == "Админ") {
  } else {
      alert("Я вас не знаю");
 }
-4. 
+// 4. 
 var a = prompt("Number", );
 var b = prompt("Number", );
 (+a + +b) < 4 ? 'Мало': 'Много';
-5.
+// 5.
 var login = prompt("Login", );
 
 login == 'Вася' ? 'Привет': 
 login == 'Директор' ? "Здравствуйте":
 login == "" ? "Нет логина": "";
-6.
+//6.
 var age = prompt("How old are you", );
 if (!(age >= 14 && age <= 90)) {
    alert ("Wrong");

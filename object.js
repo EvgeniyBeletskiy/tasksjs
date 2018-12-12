@@ -1,4 +1,4 @@
-1.
+// 1.
     var obj = {};
     var counter = 0;
     function isEmpty(obj) {
@@ -12,7 +12,7 @@
       }
     }
     isEmpty(obj)
-2. 
+//2. 
 var salaries = {
   "Вася": 100,
   "Петя": 300,
@@ -25,7 +25,7 @@ var totalSalaries = function(salaries) {
     }
     return sal;
 }
-3. 
+//3. 
 var salaries = {
   "Вася": 100,
   "Петя": 300,
@@ -44,7 +44,7 @@ function minSalaries(salaries) {
    return value;
 }
 minSalaries(salaries)
-4. 
+//4. 
   var menu = {
   width: 200,
   height: 300,

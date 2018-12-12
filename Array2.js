@@ -1,4 +1,4 @@
-1. 
+// 1. 
 var arr = ["Есть", "жизнь", "на", "Марсе"];
 
 var arrLength = arr.map(function(word) {
